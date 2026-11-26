@@ -1,33 +1,14 @@
-# The Gremlin on GitHub Actions
-#
-# GitHub Actions is not a real 24/7 host. One job can run for 6 hours max,
-# then GitHub kills it. So this workflow runs the bot in polling mode and
-# restarts it on a schedule, every 4 hours, so it is up most of the time
-# with short gaps between runs.
-#
-# This only stays free if the repo is PUBLIC. Public repos get unlimited
-# Actions minutes. A private repo on the free plan only gets 2,000
-# minutes a month, and the bot would burn through that in about a day.
-#
-# Secrets to add in repo Settings > Secrets and variables > Actions
-# (never put these in the code or in this file):
-#   SLACK_BOT_TOKEN   (xoxb-...)
-#   SLACK_APP_TOKEN   (xapp-..., only needed for Socket Mode, not polling)
-#   LLM_API_KEY       (OpenRouter key, free models only)
-#   GROQ_API_KEY      (Groq key, free tier, hard capped in the code)
-#
-# Note: each run starts fresh, so groq-usage.json does not carry over
-# between runs. The in-code Groq caps (500/day, 20/min) still apply
-# per run, and Groq itself will just refuse requests past its free tier.
-
 name: gremlin
+
+concurrency:
+  group: gremlin
+  cancel-in-progress: false
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # Every 4 hours. GitHub cron runs in UTC.
     - cron: "0 */4 * * *"
 
 jobs:
@@ -44,8 +25,6 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        # npm ci needs package-lock.json, which is too big to push through
-        # the GitHub API from here, so install from package.json instead.
         run: npm install
 
       - name: Check tests pass
@@ -70,6 +49,4 @@ jobs:
           EOF
 
       - name: Run The Gremlin (polling mode)
-        # timeout stops the bot just before GitHub's job limit, and the
-        # next scheduled run starts it again.
         run: timeout 225m npm run start:poll || true
