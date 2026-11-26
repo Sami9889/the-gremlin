@@ -1,1 +1,3 @@
-LmVudgpub2RlX21vZHVsZXMvCioubG9nCg==
+.env
+node_modules/
+*.log
