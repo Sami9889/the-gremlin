@@ -1,1 +1,101 @@
-Ly8gVGVzdHMgZm9yIFRoZSBHcmVtbGluLiBSdW46IG5wbSB0ZXN0Ci8vIFVzZXMgb25seSBOb2RlJ3MgYnVpbHQtaW4gdGVzdCBydW5uZXIsIG5vIGV4dHJhIGRlcGVuZGVuY2llcy4KY29uc3QgdGVzdCA9IHJlcXVpcmUoIm5vZGU6dGVzdCIpOwpjb25zdCBhc3NlcnQgPSByZXF1aXJlKCJub2RlOmFzc2VydC9zdHJpY3QiKTsKY29uc3QgZnMgPSByZXF1aXJlKCJub2RlOmZzIik7CmNvbnN0IHBhdGggPSByZXF1aXJlKCJub2RlOnBhdGgiKTsKCmNvbnN0IGdyZW1saW4gPSByZXF1aXJlKCIuLi9zcmMvZ3JlbWxpbiIpOwoKdGVzdCgicHJvbXB0IGV4aXN0cyBhbmQgaXMgR3JlbWxpbiwgbm90IFdhcmRlbiIsICgpID0+IHsKICBjb25zdCBwcm9tcHQgPSBmcy5yZWFkRmlsZVN5bmMocGF0aC5qb2luKF9fZGlybmFtZSwgIi4uIiwgInByb21wdCIsICJwcm9tcHQubWQiKSwgInV0ZjgiKTsKICBhc3NlcnQubWF0Y2gocHJvbXB0LCAvR3JlbWxpbi8pOwogIGFzc2VydC5tYXRjaChwcm9tcHQsIC9ncmVtbGluIG1vZGUvKTsKICBhc3NlcnQubWF0Y2gocHJvbXB0LCAvRHViYnkvKTsKICBhc3NlcnQubWF0Y2gocHJvbXB0LCAvUmVwbHkgaW4gYSB0aHJlYWQgdG8gdGhlIG1lc3NhZ2UgeW91IGFyZSByZXBseWluZyB0bywgYWx3YXlzLyk7CiAgLy8gTm8gV2FyZGVuIHN0dWZmIGF0IGFsbCBpbiB0aGUgcHJvbXB0LCBub3QgZXZlbiBpbiBhIGRvLW5vdCBsaXN0LgogIGFzc2VydC5kb2VzTm90TWF0Y2gocHJvbXB0LCAvd2FyZGVuL2kpOwogIGFzc2VydC5kb2VzTm90TWF0Y2gocHJvbXB0LCAvZ3VhcmQvaSk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcm9tcHQsIC9tb2RlcmF0b3IvaSk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcm9tcHQsIC9ib3VuY2VyL2kpOwogIGFzc2VydC5kb2VzTm90TWF0Y2gocHJvbXB0LCAvZ28gdG8gdGhlIGhvbGUvaSk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcm9tcHQsIC9jaGVlc2UvaSk7CiAgYXNzZXJ0LmRvZXNOb3RNYXRjaChwcm9tcHQsIC9jYW5iZXJyYSBpcyBiZXR0ZXIvaSk7Cn0pOwoKdGVzdCgiY29tbWFuZHMgcGFyc2UiLCAoKSA9PiB7CiAgYXNzZXJ0LmVxdWFsKGdyZW1saW4ucGFyc2VHcmVtbGluQ29tbWFuZCgiIWdyZW1saW4gaGVscCIpLnR5cGUsICJoZWxwIik7CiAgYXNzZXJ0LmVxdWFsKGdyZW1saW4ucGFyc2VHcmVtbGluQ29tbWFuZCgiIWdyZW1saW4gbGVhdmUiKS50eXBlLCAibGVhdmUiKTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5wYXJzZUdyZW1saW5Db21tYW5kKCIhZ3JlbWxpbiBzdG9wIikudHlwZSwgImxlYXZlIik7CiAgYXNzZXJ0LmVxdWFsKGdyZW1saW4ucGFyc2VHcmVtbGluQ29tbWFuZCgiQGdyZW1saW4gIXN0b3AiKS50eXBlLCAic3RvcCIpOwogIGFzc2VydC5lcXVhbChncmVtbGluLnBhcnNlR3JlbWxpbkNvbW1hbmQoIjxAVTEyM3xncmVtbGluPiAhc3RvcCIsICJVMTIzIikudHlwZSwgInN0b3AiKTsKICBhc3NlcnQuZGVlcEVxdWFsKGdyZW1saW4ucGFyc2VHcmVtbGluQ29tbWFuZCgiIWdyZW1saW4gc2F5IGhlbGxvIHdvcmxkIiksIHsKICAgIHR5cGU6ICJzYXkiLAogICAgdGV4dDogImhlbGxvIHdvcmxkIiwKICB9KTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5wYXJzZUdyZW1saW5Db21tYW5kKCJoZWxsbyB3b3JsZCIpLCBudWxsKTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5wYXJzZUdyZW1saW5Db21tYW5kKCIhZ3JlbWxpbiBmcm9ibmljYXRlIikudHlwZSwgInVua25vd24iKTsKfSk7Cgp0ZXN0KCIjIyBoaWRlcyBhIG1lc3NhZ2UgZnJvbSB0aGUgZ3JlbWxpbiIsICgpID0+IHsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5pc0hpZGRlbkZyb21HcmVtbGluKCIjIyBkbyBub3QgcmVwbHkgdG8gdGhpcyIpLCB0cnVlKTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5pc0hpZGRlbkZyb21HcmVtbGluKCJoZWxsbyIpLCBmYWxzZSk7Cn0pOwoKdGVzdCgic2hvdWxkUmVwbHkgcmVzcGVjdHMgY2hhbm5lbCwgYm90cywgYW5kIGxlZnQgdGhyZWFkcyIsICgpID0+IHsKICBjb25zdCBiYXNlID0gewogICAgaG9tZUNoYW5uZWxJZDogIkMwQ0xYRjdFQ1JGIiwKICAgIGJvdFVzZXJJZDogIlUxMjMiLAogICAgcmVwbHlUb0FsbDogdHJ1ZSwKICAgIGxlZnRUaHJlYWRzOiBuZXcgU2V0KCksCiAgICBqb2luZWRUaHJlYWRzOiBuZXcgU2V0KCksCiAgfTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5zaG91bGRSZXBseSh7IGNoYW5uZWw6ICJDMENMWEY3RUNSRiIsIHRleHQ6ICJoaSIsIHRzOiAiMSIgfSwgYmFzZSksIHRydWUpOwogIGFzc2VydC5lcXVhbChncmVtbGluLnNob3VsZFJlcGx5KHsgY2hhbm5lbDogIkM5OTkiLCB0ZXh0OiAiaGkiLCB0czogIjEiIH0sIGJhc2UpLCBmYWxzZSk7CiAgYXNzZXJ0LmVxdWFsKGdyZW1saW4uc2hvdWxkUmVwbHkoeyBjaGFubmVsOiAiQzBDTFhGN0VDUkYiLCB0ZXh0OiAiaGkiLCB0czogIjEiLCBib3RfaWQ6ICJCMSIgfSwgYmFzZSksIGZhbHNlKTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5zaG91bGRSZXBseSh7IGNoYW5uZWw6ICJDMENMWEY3RUNSRiIsIHRleHQ6ICIjIyBoaSIsIHRzOiAiMSIgfSwgYmFzZSksIGZhbHNlKTsKICBjb25zdCBsZWZ0ID0geyAuLi5iYXNlLCBsZWZ0VGhyZWFkczogbmV3IFNldChbIkMwQ0xYRjdFQ1JGOjEiXSkgfTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5zaG91bGRSZXBseSh7IGNoYW5uZWw6ICJDMENMWEY3RUNSRiIsIHRleHQ6ICJoaSIsIHRzOiAiMSIgfSwgbGVmdCksIGZhbHNlKTsKfSk7Cgp0ZXN0KCJzaG91bGRSZXBseSBpbiBtZW50aW9uLW9ubHkgbW9kZSIsICgpID0+IHsKICBjb25zdCBvcHRzID0gewogICAgaG9tZUNoYW5uZWxJZDogIkMwQ0xYRjdFQ1JGIiwKICAgIGJvdFVzZXJJZDogIlUxMjMiLAogICAgcmVwbHlUb0FsbDogZmFsc2UsCiAgICBsZWZ0VGhyZWFkczogbmV3IFNldCgpLAogICAgam9pbmVkVGhyZWFkczogbmV3IFNldCgpLAogIH07CiAgYXNzZXJ0LmVxdWFsKGdyZW1saW4uc2hvdWxkUmVwbHkoeyBjaGFubmVsOiAiQzBDTFhGN0VDUkYiLCB0ZXh0OiAiaGkiLCB0czogIjEiIH0sIG9wdHMpLCBmYWxzZSk7CiAgYXNzZXJ0LmVxdWFsKGdyZW1saW4uc2hvdWxkUmVwbHkoeyBjaGFubmVsOiAiQzBDTFhGN0VDUkYiLCB0ZXh0OiAiaGV5IGdyZW1saW4iLCB0czogIjEiIH0sIG9wdHMpLCB0cnVlKTsKICBhc3NlcnQuZXF1YWwoZ3JlbWxpbi5zaG91bGRSZXBseSh7IGNoYW5uZWw6ICJDMENMWEY3RUNSRiIsIHRleHQ6ICJoZXkgPEBVMTIzPiIsIHRzOiAiMSIgfSwgb3B0cyksIHRydWUpOwp9KTsKCnRlc3QoImZhbGxiYWNrIHJlcGxpZXMgaGl0IHRoZSByaWdodCBrZXl3b3JkcyIsICgpID0+IHsKICBhc3NlcnQubWF0Y2goZ3JlbWxpbi5waWNrRmFsbGJhY2tSZXBseSgiaSBsb3ZlIGR1YmJ5IiwgInNhbWkiKSwgL1NBTUk5ODg5Lyk7CiAgYXNzZXJ0Lm1hdGNoKGdyZW1saW4ucGlja0ZhbGxiYWNrUmVwbHkoIm15IGNvZGUgaXMgYnJva2VuIiwgInNhbWkiKSwgL2FscmVhZHkgYnJva2VuLyk7CiAgYXNzZXJ0Lm1hdGNoKGdyZW1saW4ucGlja0ZhbGxiYWNrUmVwbHkoImdpdmUgbWUgYSBzbmFjayIsICJzYW1pIiksIC9zbmFjayB0YXgvKTsKICBhc3NlcnQubWF0Y2goZ3JlbWxpbi5waWNrRmFsbGJhY2tSZXBseSgicmlvIGlzIGN1dGUiLCAic2FtaSIpLCAvZG9nL2kpOwogIGFzc2VydC5kb2VzTm90TWF0Y2goZ3JlbWxpbi5waWNrRmFsbGJhY2tSZXBseSgicmlvIGlzIGN1dGUiLCAic2FtaSIpLCAvcmlvL2kpOwogIGFzc2VydC5tYXRjaChncmVtbGluLnBpY2tGYWxsYmFja1JlcGx5KCJ0aW55LXVuaXR5IGlzIGNvb2wiLCAic2FtaSIpLCAvdGlueS11bml0eS9pKTsKICBhc3NlcnQuZXF1YWwodHlwZW9mIGdyZW1saW4ucGlja0ZhbGxiYWNrUmVwbHkoInJhbmRvbSB3b3JkcyBoZXJlIiwgInNhbWkiKSwgInN0cmluZyIpOwp9KTsKCnRlc3QoIkxMTSBvdXRwdXQgcGFyc2VyIiwgKCkgPT4gewogIGFzc2VydC5kZWVwRXF1YWwoZ3JlbWxpbi5wYXJzZUxsbU91dHB1dCgicmVwbHk6IG5haFxucmVhY3Rpb246IGxvbGwiKSwgewogICAgcmVwbHk6ICJuYWgiLAogICAgcmVhY3Rpb246ICJsb2xsIiwKICB9KTsKICBhc3NlcnQuZGVlcEVxdWFsKGdyZW1saW4ucGFyc2VMbG1PdXRwdXQoInJlcGx5OiBcbnJlYWN0aW9uOiAiKSwgeyByZXBseTogIiIsIHJlYWN0aW9uOiAiIiB9KTsKICBhc3NlcnQuZGVlcEVxdWFsKGdyZW1saW4ucGFyc2VMbG1PdXRwdXQoIiIpLCB7IHJlcGx5OiAiIiwgcmVhY3Rpb246ICIiIH0pOwogIGNvbnN0IGxvbmcgPSBncmVtbGluLnBhcnNlTGxtT3V0cHV0KGByZXBseTogJHsieCIucmVwZWF0KDYwMCl9XG5yZWFjdGlvbjogYCk7CiAgYXNzZXJ0LmVxdWFsKGxvbmcucmVwbHkubGVuZ3RoLCA1MDApOwp9KTsKCnRlc3QoIkxMTSBtZXNzYWdlIGJ1aWxkZXIga2VlcHMgaGlzdG9yeSBib3VuZGVkIiwgKCkgPT4gewogIGNvbnN0IGhpc3RvcnkgPSBBcnJheS5mcm9tKHsgbGVuZ3RoOiAzMCB9LCAoXywgaSkgPT4gKHsgcm9sZTogInVzZXIiLCB0ZXh0OiBgbXNnICR7aX1gIH0pKTsKICBjb25zdCBtc2dzID0gZ3JlbWxpbi5idWlsZExsbU1lc3NhZ2VzKCJzeXN0ZW0iLCBoaXN0b3J5LCAiaGVsbG8iLCAic2FtaSIpOwogIGFzc2VydC5lcXVhbChtc2dzWzBdLnJvbGUsICJzeXN0ZW0iKTsKICBhc3NlcnQuZXF1YWwobXNncy5sZW5ndGgsIDEgKyBncmVtbGluLk1BWF9ISVNUT1JZICsgMSk7CiAgYXNzZXJ0Lm1hdGNoKG1zZ3NbbXNncy5sZW5ndGggLSAxXS5jb250ZW50LCAvc2FtaTogaGVsbG8vKTsKfSk7Cg==
+// Tests for The Gremlin. Run: npm test
+// Uses only Node's built-in test runner, no extra dependencies.
+const test = require("node:test");
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
+
+const gremlin = require("../src/gremlin");
+
+test("prompt exists and is Gremlin, not Warden", () => {
+  const prompt = fs.readFileSync(path.join(__dirname, "..", "prompt", "prompt.md"), "utf8");
+  assert.match(prompt, /Gremlin/);
+  assert.match(prompt, /gremlin mode/);
+  assert.match(prompt, /Dubby/);
+  assert.match(prompt, /Reply in a thread to the message you are replying to, always/);
+  // No Warden stuff at all in the prompt, not even in a do-not list.
+  assert.doesNotMatch(prompt, /warden/i);
+  assert.doesNotMatch(prompt, /guard/i);
+  assert.doesNotMatch(prompt, /moderator/i);
+  assert.doesNotMatch(prompt, /bouncer/i);
+  assert.doesNotMatch(prompt, /go to the hole/i);
+  assert.doesNotMatch(prompt, /cheese/i);
+  assert.doesNotMatch(prompt, /canberra is better/i);
+});
+
+test("commands parse", () => {
+  assert.equal(gremlin.parseGremlinCommand("!gremlin help").type, "help");
+  assert.equal(gremlin.parseGremlinCommand("!gremlin leave").type, "leave");
+  assert.equal(gremlin.parseGremlinCommand("!gremlin stop").type, "leave");
+  assert.equal(gremlin.parseGremlinCommand("@gremlin !stop").type, "stop");
+  assert.equal(gremlin.parseGremlinCommand("<@U123|gremlin> !stop", "U123").type, "stop");
+  assert.deepEqual(gremlin.parseGremlinCommand("!gremlin say hello world"), {
+    type: "say",
+    text: "hello world",
+  });
+  assert.equal(gremlin.parseGremlinCommand("hello world"), null);
+  assert.equal(gremlin.parseGremlinCommand("!gremlin frobnicate").type, "unknown");
+});
+
+test("## hides a message from the gremlin", () => {
+  assert.equal(gremlin.isHiddenFromGremlin("## do not reply to this"), true);
+  assert.equal(gremlin.isHiddenFromGremlin("hello"), false);
+});
+
+test("shouldReply respects channel, bots, and left threads", () => {
+  const base = {
+    homeChannelId: "C0CLXF7ECRF",
+    botUserId: "U123",
+    replyToAll: true,
+    leftThreads: new Set(),
+    joinedThreads: new Set(),
+  };
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "hi", ts: "1" }, base), true);
+  assert.equal(gremlin.shouldReply({ channel: "C999", text: "hi", ts: "1" }, base), false);
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "hi", ts: "1", bot_id: "B1" }, base), false);
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "## hi", ts: "1" }, base), false);
+  const left = { ...base, leftThreads: new Set(["C0CLXF7ECRF:1"]) };
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "hi", ts: "1" }, left), false);
+});
+
+test("shouldReply in mention-only mode", () => {
+  const opts = {
+    homeChannelId: "C0CLXF7ECRF",
+    botUserId: "U123",
+    replyToAll: false,
+    leftThreads: new Set(),
+    joinedThreads: new Set(),
+  };
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "hi", ts: "1" }, opts), false);
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "hey gremlin", ts: "1" }, opts), true);
+  assert.equal(gremlin.shouldReply({ channel: "C0CLXF7ECRF", text: "hey <@U123>", ts: "1" }, opts), true);
+});
+
+test("fallback replies hit the right keywords", () => {
+  assert.match(gremlin.pickFallbackReply("i love dubby", "sami"), /SAMI9889/);
+  assert.match(gremlin.pickFallbackReply("my code is broken", "sami"), /already broken/);
+  assert.match(gremlin.pickFallbackReply("give me a snack", "sami"), /snack tax/);
+  assert.match(gremlin.pickFallbackReply("rio is cute", "sami"), /dog/i);
+  assert.doesNotMatch(gremlin.pickFallbackReply("rio is cute", "sami"), /rio/i);
+  assert.match(gremlin.pickFallbackReply("tiny-unity is cool", "sami"), /tiny-unity/i);
+  assert.equal(typeof gremlin.pickFallbackReply("random words here", "sami"), "string");
+});
+
+test("LLM output parser", () => {
+  assert.deepEqual(gremlin.parseLlmOutput("reply: nah\nreaction: loll"), {
+    reply: "nah",
+    reaction: "loll",
+  });
+  assert.deepEqual(gremlin.parseLlmOutput("reply: \nreaction: "), { reply: "", reaction: "" });
+  assert.deepEqual(gremlin.parseLlmOutput(""), { reply: "", reaction: "" });
+  const long = gremlin.parseLlmOutput(`reply: ${"x".repeat(600)}\nreaction: `);
+  assert.equal(long.reply.length, 500);
+});
+
+test("LLM message builder keeps history bounded", () => {
+  const history = Array.from({ length: 30 }, (_, i) => ({ role: "user", text: `msg ${i}` }));
+  const msgs = gremlin.buildLlmMessages("system", history, "hello", "sami");
+  assert.equal(msgs[0].role, "system");
+  assert.equal(msgs.length, 1 + gremlin.MAX_HISTORY + 1);
+  assert.match(msgs[msgs.length - 1].content, /sami: hello/);
+});
