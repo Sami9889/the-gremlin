@@ -1,1 +1,164 @@
-Ly8gVGhlIEdyZW1saW4gLSBwb2xsaW5nIG1vZGUgZm9yIE11c2UgVk0sIHdoZXJlIFNsYWNrIFNvY2tldCBNb2RlIHdlYnNvY2tldHMKLy8gZmFpbCB0aHJvdWdoIHRoZSBlZ3Jlc3MgcHJveHkuIFVzZXMgcGxhaW4gSFRUUFMgZmV0Y2gsIHdoaWNoIHdvcmtzIGhlcmUuCi8vIFNhbWUgbG9naWMgYXMgc3JjL2luZGV4LmpzLCBqdXN0IGEgZGlmZmVyZW50IHRyYW5zcG9ydC4KLy8gUnVuOiBucG0gcnVuIHN0YXJ0OnBvbGwKcmVxdWlyZSgiZG90ZW52IikuY29uZmlnKCk7CmNvbnN0IHsKICBIT01FX0NIQU5ORUxfSUQsIEhFTFBfVEVYVCwgUkFORE9NX0RST1BTLCBwaWNrRmFsbGJhY2tSZXBseSwgbG9hZFN5c3RlbVByb21wdCwKICBwYXJzZUdyZW1saW5Db21tYW5kLCBzaG91bGRSZXBseSwgcGFyc2VMbG1PdXRwdXQsIGJ1aWxkTGxtTWVzc2FnZXMsCiAgcGlja1dlbGNvbWUsIGlzU3BhbW15LCBwaWNrR3VhcmRSZXBseSwgQURNSU5fVVNFUl9JRCwKfSA9IHJlcXVpcmUoIi4vZ3JlbWxpbiIpOwpjb25zdCB7IGFza0JyYWluLCBhc2tHcm9xIH0gPSByZXF1aXJlKCIuL2JyYWluIik7Cgpjb25zdCBIT01FX0NIQU5ORUwgPSBwcm9jZXNzLmVudi5HUkVNTElOX0NIQU5ORUxfSUQgfHwgSE9NRV9DSEFOTkVMX0lEOwpjb25zdCBCT1RfVE9LRU4gPSBwcm9jZXNzLmVudi5TTEFDS19CT1RfVE9LRU4gfHwgIiI7CmNvbnN0IEJPVF9VU0VSX0lEID0gcHJvY2Vzcy5lbnYuR1JFTUxJTl9CT1RfVVNFUl9JRCB8fCAiVTBDTTVEVUpLN1ciOwpjb25zdCBSRVBMWV9UT19BTEwgPSBwcm9jZXNzLmVudi5HUkVNTElOX1JFUExZX1RPX0FMTCAhPT0gImZhbHNlIjsKY29uc3QgUkFORE9NX1BFUl9EQVkgPSBOdW1iZXIocHJvY2Vzcy5lbnYuR1JFTUxJTl9SQU5ET01fUEVSX0RBWSB8fCAzKTsKY29uc3QgVEhSRUFEX01FTU9SWSA9IE51bWJlcihwcm9jZXNzLmVudi5HUkVNTElOX1RIUkVBRF9NRU1PUlkgfHwgMjApOwpjb25zdCBMTE1fQVBJX0tFWSA9IHByb2Nlc3MuZW52LkxMTV9BUElfS0VZIHx8ICIiOwpjb25zdCBMTE1fQkFTRV9VUkwgPSAocHJvY2Vzcy5lbnYuTExNX0JBU0VfVVJMIHx8ICJodHRwczovL29wZW5yb3V0ZXIuYWkvYXBpL3YxIikucmVwbGFjZSgvXC8kLywgIiIpOwpjb25zdCBMTE1fTU9ERUwgPSBwcm9jZXNzLmVudi5MTE1fTU9ERUwgfHwgImdvb2dsZS9nZW1tYS00LTI2Yi1hNGItaXQ6ZnJlZSI7CmNvbnN0IExMTV9GQUxMQkFDS19NT0RFTFMgPSAocHJvY2Vzcy5lbnYuTExNX0ZBTExCQUNLX01PREVMUyB8fCAiIikuc3BsaXQoIiwiKS5tYXAocz0+cy50cmltKCkpLmZpbHRlcihCb29sZWFuKTsKY29uc3QgR1JPUV9BUElfS0VZID0gcHJvY2Vzcy5lbnYuR1JPUV9BUElfS0VZIHx8ICIiOwpjb25zdCBHUk9RX01PREVMUyA9IChwcm9jZXNzLmVudi5HUk9RX01PREVMUyB8fCAicXdlbi9xd2VuMy44LTI3YixvcGVuYWkvZ3B0LW9zcy0yMGIsb3BlbmFpL2dwdC1vc3MtMTIwYiIpLnNwbGl0KCIsIikubWFwKHM9PnMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CgpsZXQgc3lzdGVtUHJvbXB0ID0gIiI7CnRyeSB7IHN5c3RlbVByb21wdCA9IGxvYWRTeXN0ZW1Qcm9tcHQoKTsgfSBjYXRjaCB7IHN5c3RlbVByb21wdCA9ICJZb3UgYXJlIFRoZSBHcmVtbGluLCBhIGNoYW90aWMgZnVubnkgZ3JlbWxpbiBpbiBTYW1pJ3MgU2xhY2sgY2hhbm5lbC4gS2VlcCByZXBsaWVzIHRvIDEtMiBsaW5lcy4gUmVwbHkgaW4gdGhpcyBleGFjdCBmb3JtYXQ6XG5yZXBseTogPHRleHQ+XG5yZWFjdGlvbjogPGVtb2ppIG9yIGJsYW5rPiI7IH0KCmNvbnN0IHRocmVhZEhpc3RvcnkgPSBuZXcgTWFwKCk7CmNvbnN0IGpvaW5lZFRocmVhZHMgPSBuZXcgU2V0KCk7CmNvbnN0IGxlZnRUaHJlYWRzID0gbmV3IE1hcCgpOwpjb25zdCBzZWVuID0gbmV3IFNldCgpOwpmdW5jdGlvbiB0aHJlYWRLZXkoYywgdCl7IHJldHVybiBgJHtjfToke3R9YDsgfQpmdW5jdGlvbiBpc0xlZnQoYywgdCl7IGNvbnN0IGUgPSBsZWZ0VGhyZWFkcy5nZXQodGhyZWFkS2V5KGMsdCkpOyBpZighZSkgcmV0dXJuIGZhbHNlOyBpZihEYXRlLm5vdygpPmUpeyBsZWZ0VGhyZWFkcy5kZWxldGUodGhyZWFkS2V5KGMsdCkpOyByZXR1cm4gZmFsc2U7IH0gcmV0dXJuIHRydWU7IH0KZnVuY3Rpb24gZ2V0SGlzdG9yeShjLHQpeyByZXR1cm4gdGhyZWFkSGlzdG9yeS5nZXQodGhyZWFkS2V5KGMsdCkpIHx8IFtdOyB9CmZ1bmN0aW9uIHB1c2hIaXN0b3J5KGMsdCxyLHR4dCl7IGNvbnN0IGs9dGhyZWFkS2V5KGMsdCk7IGNvbnN0IGw9Z2V0SGlzdG9yeShjLHQpOyBsLnB1c2goe3JvbGU6cix0ZXh0OnR4dH0pOyB0aHJlYWRIaXN0b3J5LnNldChrLGwuc2xpY2UoLVRIUkVBRF9NRU1PUlkpKTsgfQoKYXN5bmMgZnVuY3Rpb24gc2xhY2sobWV0aG9kLCBib2R5KXsKICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9zbGFjay5jb20vYXBpLyR7bWV0aG9kfWAsIHttZXRob2Q6IlBPU1QiLCBoZWFkZXJzOntBdXRob3JpemF0aW9uOmBCZWFyZXIgJHtCT1RfVE9LRU59YCwiQ29udGVudC1UeXBlIjoiYXBwbGljYXRpb24vanNvbiJ9LCBib2R5OiBKU09OLnN0cmluZ2lmeShib2R5fHx7fSksIHNpZ25hbDogQWJvcnRTaWduYWwudGltZW91dCgxMDAwMCl9KTsKICByZXR1cm4gcmVzLmpzb24oKTsKfQphc3luYyBmdW5jdGlvbiBwb3N0TWVzc2FnZShjaGFubmVsLCB0ZXh0LCB0aHJlYWRfdHMpewogIGlmKHRocmVhZF90cykga25vd25UaHJlYWRzLmFkZCh0aHJlYWRfdHMpOwogIGNvbnNvbGUubG9nKCJwb3N0aW5nIiwgdGV4dC5zbGljZSgwLDgwKSk7CiAgY29uc3QgciA9IGF3YWl0IHNsYWNrKCJjaGF0LnBvc3RNZXNzYWdlIiwge2NoYW5uZWwsIHRleHQsIHRocmVhZF90c30pOwogIGNvbnNvbGUubG9nKCJwb3N0IG9rOiIsIHIub2ssIHIuZXJyb3J8fCIiKTsKICBpZighci5vaykgY29uc29sZS53YXJuKCJwb3N0TWVzc2FnZSBmYWlsZWQiLCByLmVycm9yKTsKICByZXR1cm4gcjsKfQpjb25zdCBEVUJCWV9MT0dPID0gImh0dHBzOi8vY2RuLnNob3BpZnkuY29tL3MvZmlsZXMvMS8wNTUyLzcyNTMvODI5Ni9maWxlcy9kdWJieV9wbmdfbG9nby5wbmc/dj0xNjE1NTAwMzc4JndpZHRoPTY0MCI7CmFzeW5jIGZ1bmN0aW9uIHBvc3RQcm9tbyhjaGFubmVsKXsKICBjb25zdCByID0gYXdhaXQgc2xhY2soImNoYXQucG9zdE1lc3NhZ2UiLCB7Y2hhbm5lbCwgdGV4dDogIjwhY2hhbm5lbD4gZHViYnkgcHJvbW8hIHVzZSBjb2RlIFNBTUk5ODg5IGF0IGR1YmJ5LmdnIGZvciAxMCUgb2ZmLiBnZXQgaXQgaGVyZTogaHR0cHM6Ly93d3cuZHViYnkuZ2cvZGlzY291bnQvU0FNSTk4ODk/cmVmPWRvaWhncHljIiwgYmxvY2tzOiBbe3R5cGU6ICJzZWN0aW9uIiwgdGV4dDoge3R5cGU6ICJtcmtkd24iLCB0ZXh0OiAiPCFjaGFubmVsPiBkdWJieSBwcm9tbyEgdXNlIGNvZGUgKlNBTUk5ODg5KiBhdCBkdWJieS5nZyBmb3IgKjEwJSBvZmYqLiBzYW1pIGlzIGEgZHViYnkgcGFydG5lciwgYW5kIGhlIGlzIHdvcmtpbmcgb24gYSBjdXN0b20gcGVhY2ggc2x1c2h5IGZsYXZvdXIgdGhhdCB0YXN0ZXMgbGlrZSBQZWFjaCBGYW50YS4gZ2V0IGl0IGhlcmU6IDxodHRwczovL3d3dy5kdWJieS5nZy9kaXNjb3VudC9TQU1JOTg4OT9yZWY9ZG9paGdweWN8ZHViYnkuZ2cvZGlzY291bnQvU0FNSTk4ODk+In19LCB7dHlwZTogImltYWdlIiwgaW1hZ2VfdXJsOiBEVUJCWV9MT0dPLCBhbHRfdGV4dDogIkR1YmJ5IEVuZXJneSBsb2dvIn1dfSk7CiAgY29uc29sZS5sb2coInByb21vIHBvc3Qgb2s6Iiwgci5vaywgci5lcnJvcnx8IiIpOwogIHJldHVybiByOwp9CmFzeW5jIGZ1bmN0aW9uIGdldERpc3BsYXlOYW1lKHVzZXJJZCl7CiAgdHJ5IHsgY29uc3QgciA9IGF3YWl0IHNsYWNrKCJ1c2Vycy5pbmZvIiwge3VzZXI6dXNlcklkfSk7IHJldHVybiByLnVzZXI/LnByb2ZpbGU/LmRpc3BsYXlfbmFtZSB8fCByLnVzZXI/LnByb2ZpbGU/LnJlYWxfbmFtZSB8fCByLnVzZXI/Lm5hbWUgfHwgIiI7IH0gY2F0Y2ggeyByZXR1cm4gIiI7IH0KfQphc3luYyBmdW5jdGlvbiBhc2tMbG0oaGlzdG9yeSwgdXNlclRleHQsIHVzZXJuYW1lKXsKICBpZighTExNX0FQSV9LRVkpIHJldHVybiBudWxsOwogIGNvbnN0IG1lc3NhZ2VzID0gYnVpbGRMbG1NZXNzYWdlcyhzeXN0ZW1Qcm9tcHQsIGhpc3RvcnksIHVzZXJUZXh0LCB1c2VybmFtZSk7CiAgY29uc3QgZ3JvcSA9IGF3YWl0IGFza0dyb3EoeyBhcGlLZXk6IEdST1FfQVBJX0tFWSwgbW9kZWxzOiBHUk9RX01PREVMUywgbWVzc2FnZXMsIHVzZXJUZXh0LCBzeXN0ZW1Qcm9tcHQgfSkuY2F0Y2goKCk9Pm51bGwpOwogIGlmIChncm9xKSByZXR1cm4gZ3JvcTsKICByZXR1cm4gYXNrQnJhaW4oeyBiYXNlVXJsOiBMTE1fQkFTRV9VUkwsIGFwaUtleTogTExNX0FQSV9LRVksIG1vZGVsczogW0xMTV9NT0RFTCwgLi4uTExNX0ZBTExCQUNLX01PREVMU10sIG1lc3NhZ2VzLCB1c2VyVGV4dCwgc3lzdGVtUHJvbXB0IH0pOwp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGUoZXZlbnQpewogIGNvbnNvbGUubG9nKCJoYW5kbGUiLCBldmVudC50cywgSlNPTi5zdHJpbmdpZnkoZXZlbnQudGV4dHx8IiIpLnNsaWNlKDAsMTIwKSk7CiAgaWYoIWV2ZW50IHx8IGV2ZW50LmNoYW5uZWwgIT09IEhPTUVfQ0hBTk5FTCkgcmV0dXJuOwogIGlmKGV2ZW50LmJvdF9pZCkgcmV0dXJuOwogIGlmKGV2ZW50LnN1YnR5cGUgPT09ICJjaGFubmVsX2pvaW4iKXsKICAgIGlmKGV2ZW50LnVzZXIgPT09ICJVMDhHMDZVOFBTOCIpIHJldHVybjsgLy8gQGF0LWNoYW5uZWwgaXMgbm90IGEgcmVhbCBwZXJzb24sIGRvIG5vdCB3ZWxjb21lIGl0CiAgICBhd2FpdCBwb3N0TWVzc2FnZShldmVudC5jaGFubmVsLCBwaWNrV2VsY29tZShldmVudC51c2VyKSk7CiAgICByZXR1cm47CiAgfQogIGlmKGV2ZW50LnN1YnR5cGUgJiYgZXZlbnQuc3VidHlwZSAhPT0gInRocmVhZF9icm9hZGNhc3QiKSByZXR1cm47CiAgY29uc3Qga2V5ID0gYCR7ZXZlbnQuY2hhbm5lbH06JHtldmVudC50c31gOwogIGlmKHNlZW4uaGFzKGtleSkpIHJldHVybjsgc2Vlbi5hZGQoa2V5KTsgaWYoc2Vlbi5zaXplPjEwMDApIHNlZW4uY2xlYXIoKTsKICBjb25zdCB0ZXh0ID0gZXZlbnQudGV4dCB8fCAiIjsKICBpZihldmVudC50aHJlYWRfdHMpIGtub3duVGhyZWFkcy5hZGQoZXZlbnQudGhyZWFkX3RzKTsKICBpZihldmVudC50cykga25vd25UaHJlYWRzLmFkZChldmVudC50cyk7CiAgY29uc3QgdGhyZWFkVHMgPSBldmVudC50aHJlYWRfdHMgfHwgZXZlbnQudHM7IC8vIGFsd2F5cyByZXBseSBpbiBhIHRocmVhZCB0byB0aGUgbWVzc2FnZSwgbmV2ZXIgYXMgYSB0b3AtbGV2ZWwgY2hhbm5lbCBtZXNzYWdlCiAgY29uc3QgY29tbWFuZCA9IHBhcnNlR3JlbWxpbkNvbW1hbmQodGV4dCwgQk9UX1VTRVJfSUQpOwogIGNvbnNvbGUubG9nKCJjb21tYW5kOiIsIEpTT04uc3RyaW5naWZ5KGNvbW1hbmQpKTsKICBpZiAoY29tbWFuZCAmJiAoY29tbWFuZC50eXBlPT09InNheSIgfHwgY29tbWFuZC50eXBlPT09ImxlYXZlIiB8fCBjb21tYW5kLnR5cGU9PT0ic3RvcCIpICYmIGV2ZW50LnVzZXIgIT09IEFETUlOX1VTRVJfSUQpIHsKICAgIGF3YWl0IHBvc3RNZXNzYWdlKGV2ZW50LmNoYW5uZWwsICJub3BlLiBvbmx5IEBzYW1pOTg4OSBjYW4gcnVuIHRoYXQgb25lLiBncmVtbGluIGFkbWluIG9ubHkiLCB0aHJlYWRUcyk7CiAgICByZXR1cm47CiAgfQogIGlmKGNvbW1hbmQpewogICAgaWYoY29tbWFuZC50eXBlPT09ImhlbHAiKXsgYXdhaXQgcG9zdE1lc3NhZ2UoZXZlbnQuY2hhbm5lbCwgSEVMUF9URVhULCB0aHJlYWRUcyk7IHJldHVybjsgfQogICAgaWYoY29tbWFuZC50eXBlPT09ImxlYXZlInx8Y29tbWFuZC50eXBlPT09InN0b3AiKXsgbGVmdFRocmVhZHMuc2V0KHRocmVhZEtleShldmVudC5jaGFubmVsLHRocmVhZFRzKSwgRGF0ZS5ub3coKSs3KjI0KjYwKjYwKjEwMDApOyBqb2luZWRUaHJlYWRzLmRlbGV0ZSh0aHJlYWRLZXkoZXZlbnQuY2hhbm5lbCx0aHJlYWRUcykpOyBhd2FpdCBwb3N0TWVzc2FnZShldmVudC5jaGFubmVsLCAiYWlnaHQgaW0gb3V0LiBncmVtbGluIGdvbmUiLCB0aHJlYWRUcyk7IHJldHVybjsgfQogICAgaWYoY29tbWFuZC50eXBlPT09ImZ1biImJmNvbW1hbmQudGV4dCYmY29tbWFuZC50ZXh0LnN0YXJ0c1dpdGgoImR1YmJ5IHByb21vISIpKXsgYXdhaXQgcG9zdFByb21vKGV2ZW50LmNoYW5uZWwpOyByZXR1cm47IH0KICAgIGlmKChjb21tYW5kLnR5cGU9PT0ic2F5Inx8Y29tbWFuZC50eXBlPT09ImZ1biIpJiZjb21tYW5kLnRleHQpeyBhd2FpdCBwb3N0TWVzc2FnZShldmVudC5jaGFubmVsLCBjb21tYW5kLnRleHQsIGNvbW1hbmQuY2hhbm5lbCA/IHVuZGVmaW5lZCA6IHRocmVhZFRzKTsgcmV0dXJuOyB9CiAgICBpZihjb21tYW5kLnR5cGU9PT0idW5rbm93biIpeyBhd2FpdCBwb3N0TWVzc2FnZShldmVudC5jaGFubmVsLCAidGhhdCBpcyBub3QgYSBncmVtbGluIGNvbW1hbmQuIHRyeSAhZ3JlbWxpbiBoZWxwIiwgdGhyZWFkVHMpOyByZXR1cm47IH0KICB9CiAgaWYoaXNTcGFtbXkodGV4dCkpeyBhd2FpdCBwb3N0TWVzc2FnZShldmVudC5jaGFubmVsLCBwaWNrR3VhcmRSZXBseSgpLCB0aHJlYWRUcyk7IHJldHVybjsgfQogIGlmKGlzTGVmdChldmVudC5jaGFubmVsLCB0aHJlYWRUcykpIHJldHVybjsKICBpZighc2hvdWxkUmVwbHkoZXZlbnQsIHtob21lQ2hhbm5lbElkOkhPTUVfQ0hBTk5FTCwgYm90VXNlcklkOkJPVF9VU0VSX0lELCByZXBseVRvQWxsOlJFUExZX1RPX0FMTCwgbGVmdFRocmVhZHM6bmV3IFNldChbLi4ubGVmdFRocmVhZHMua2V5cygpXSksIGpvaW5lZFRocmVhZHN9KSkgcmV0dXJuOwogIGNvbnN0IHVzZXJuYW1lID0gYXdhaXQgZ2V0RGlzcGxheU5hbWUoZXZlbnQudXNlcik7CiAgY29uc3QgaGlzdG9yeSA9IGdldEhpc3RvcnkoZXZlbnQuY2hhbm5lbCwgdGhyZWFkVHMpOwogIHB1c2hIaXN0b3J5KGV2ZW50LmNoYW5uZWwsIHRocmVhZFRzLCAidXNlciIsIHRleHQpOwogIGxldCByZXBseT0iIiwgcmVhY3Rpb249IiI7CiAgY29uc3QgbGxtID0gYXdhaXQgYXNrTGxtKGhpc3RvcnksIHRleHQsIHVzZXJuYW1lKS5jYXRjaCgoKT0+bnVsbCk7CiAgaWYobGxtICYmIGxsbS5yZXBseSl7IHJlcGx5PWxsbS5yZXBseTsgcmVhY3Rpb249bGxtLnJlYWN0aW9uOyB9IGVsc2UgeyByZXBseT1waWNrRmFsbGJhY2tSZXBseSh0ZXh0LCB1c2VybmFtZSk7IH0KICBpZihyZWFjdGlvbil7IHRyeXsgYXdhaXQgc2xhY2soInJlYWN0aW9ucy5hZGQiLCB7Y2hhbm5lbDpldmVudC5jaGFubmVsLCB0aW1lc3RhbXA6ZXZlbnQudHMsIG5hbWU6cmVhY3Rpb259KTsgfWNhdGNoe30gfQogIGlmKHJlcGx5KXsgYXdhaXQgcG9zdE1lc3NhZ2UoZXZlbnQuY2hhbm5lbCwgcmVwbHksIHRocmVhZFRzKTsgcHVzaEhpc3RvcnkoZXZlbnQuY2hhbm5lbCwgdGhyZWFkVHMsICJncmVtbGluIiwgcmVwbHkpOyBqb2luZWRUaHJlYWRzLmFkZCh0aHJlYWRLZXkoZXZlbnQuY2hhbm5lbCwgdGhyZWFkVHMpKTsgfQp9CgpsZXQgbGFzdFRzID0gKChEYXRlLm5vdygpLzEwMDApIC0gMTIwKS50b1N0cmluZygpOwpjb25zdCBTVEFSVEVEX0FUID0gRGF0ZS5ub3coKS8xMDAwOwpjb25zdCBrbm93blRocmVhZHMgPSBuZXcgU2V0KCk7IC8vIHRocmVhZCBwYXJlbnQgdHMgdmFsdWVzIHRvIHBvbGwgZm9yIHJlcGxpZXMKY29uc3QgdGhyZWFkTGFzdFRzID0gbmV3IE1hcCgpOwphc3luYyBmdW5jdGlvbiBwb2xsKCl7CiAgdHJ5ewogICAgY29uc3QgciA9IGF3YWl0IHNsYWNrKCJjb252ZXJzYXRpb25zLmhpc3RvcnkiLCB7Y2hhbm5lbDpIT01FX0NIQU5ORUwsIG9sZGVzdDpsYXN0VHMsIGxpbWl0OjIwfSk7CiAgICBpZighci5vayl7IGNvbnNvbGUud2FybigiaGlzdG9yeSBmYWlsZWQiLCByLmVycm9yKTsgcmV0dXJuOyB9CiAgICBjb25zb2xlLmxvZygicG9sbCBvaywgbWVzc2FnZXM6IiwgKHIubWVzc2FnZXN8fFtdKS5sZW5ndGgpOwogICAgY29uc3QgbXNncyA9IChyLm1lc3NhZ2VzfHxbXSkuc2xpY2UoKS5yZXZlcnNlKCk7CiAgICBmb3IoY29uc3QgbSBvZiBtc2dzKXsKICAgICAgaWYocGFyc2VGbG9hdChtLnRzKSA+IHBhcnNlRmxvYXQobGFzdFRzKSkgbGFzdFRzID0gbS50czsKICAgICAgaWYobS5yZXBseV9jb3VudCkga25vd25UaHJlYWRzLmFkZChtLnRzKTsKICAgICAgaWYobS50aHJlYWRfdHMpIGtub3duVGhyZWFkcy5hZGQobS50aHJlYWRfdHMpOwogICAgICBtLmNoYW5uZWwgPSBIT01FX0NIQU5ORUw7IGF3YWl0IGhhbmRsZShtKTsKICAgIH0KICAgIC8vIFBvbGwgZXZlcnkgdGhyZWFkIHdlIGtub3cgYWJvdXQsIHNvIGEgbWVzc2FnZSBpbiBhIHRocmVhZCBnZXRzCiAgICAvLyBhbiBhdXRvIHJlcGx5IHdpdGhvdXQgYW55b25lIGhhdmluZyB0byBzYXkgZ3JlbWxpbiBhZ2Fpbi4KICAgIGZvcihjb25zdCBwYXJlbnRUcyBvZiBbLi4ua25vd25UaHJlYWRzXSl7CiAgICAgIHRyeXsKICAgICAgICBjb25zdCB0clJlcyA9IGF3YWl0IGZldGNoKGBodHRwczovL3NsYWNrLmNvbS9hcGkvY29udmVyc2F0aW9ucy5yZXBsaWVzP2NoYW5uZWw9JHtIT01FX0NIQU5ORUx9JnRzPSR7cGFyZW50VHN9YCwge2hlYWRlcnM6e0F1dGhvcml6YXRpb246YEJlYXJlciAke0JPVF9UT0tFTn1gfSwgc2lnbmFsOiBBYm9ydFNpZ25hbC50aW1lb3V0KDEwMDAwKX0pOwogICAgICAgIGNvbnN0IHRyID0gYXdhaXQgdHJSZXMuanNvbigpOwogICAgICAgIGlmKCF0ci5vaykgY29udGludWU7CiAgICAgICAgY29uc3QgcmVwbGllcyA9ICh0ci5tZXNzYWdlc3x8W10pLnNsaWNlKCkuc29ydCgoYSxiKT0+cGFyc2VGbG9hdChhLnRzKS1wYXJzZUZsb2F0KGIudHMpKTsKICAgICAgICBmb3IoY29uc3QgbSBvZiByZXBsaWVzKXsKICAgICAgICAgIGlmKG0udHMgPT09IHBhcmVudFRzKSBjb250aW51ZTsKICAgICAgICAgIGNvbnN0IGxhc3QgPSB0aHJlYWRMYXN0VHMuZ2V0KHBhcmVudFRzKSB8fCAiMCI7CiAgICAgICAgICBpZihwYXJzZUZsb2F0KG0udHMpIDw9IHBhcnNlRmxvYXQobGFzdCkpIGNvbnRpbnVlOwogICAgICAgICAgaWYocGFyc2VGbG9hdChtLnRzKSA8IFNUQVJURURfQVQpIHsgdGhyZWFkTGFzdFRzLnNldChwYXJlbnRUcywgbS50cyk7IGNvbnRpbnVlOyB9CiAgICAgICAgICB0aHJlYWRMYXN0VHMuc2V0KHBhcmVudFRzLCBtLnRzKTsKICAgICAgICAgIG0uY2hhbm5lbCA9IEhPTUVfQ0hBTk5FTDsgbS50aHJlYWRfdHMgPSBwYXJlbnRUczsKICAgICAgICAgIGF3YWl0IGhhbmRsZShtKTsKICAgICAgICB9CiAgICAgIH1jYXRjaChlKXsgY29uc29sZS53YXJuKCJ0aHJlYWQgcG9sbCBlcnJvciIsIGUubWVzc2FnZSk7IH0KICAgIH0KICB9Y2F0Y2goZSl7IGNvbnNvbGUud2FybigicG9sbCBlcnJvciIsIGUubWVzc2FnZSk7IH0KfQooYXN5bmMoKT0+ewogIGNvbnNvbGUubG9nKGBUaGUgR3JlbWxpbiBpcyBhd2FrZSBpbiAke0hPTUVfQ0hBTk5FTH0gKHBvbGxpbmcgbW9kZSkuIEJvdCB1c2VyOiAke0JPVF9VU0VSX0lEfWApOwogIC8vIFNlZWQga25vd24gdGhyZWFkcyBmcm9tIHJlY2VudCBoaXN0b3J5LCBzbyB0aHJlYWRzIHN0YXJ0ZWQgYmVmb3JlCiAgLy8gdGhpcyByZXN0YXJ0IHN0aWxsIGdldCBhdXRvIHJlcGxpZXMuCiAgdHJ5ewogICAgY29uc3QgaHIgPSBhd2FpdCBzbGFjaygiY29udmVyc2F0aW9ucy5oaXN0b3J5Iiwge2NoYW5uZWw6SE9NRV9DSEFOTkVMLCBsaW1pdDoyMH0pOwogICAgZm9yKGNvbnN0IG0gb2YgKGhyLm1lc3NhZ2VzfHxbXSkpeyBpZihtLnJlcGx5X2NvdW50KSB7IGtub3duVGhyZWFkcy5hZGQobS50cyk7IHRocmVhZExhc3RUcy5zZXQobS50cywgbS5sYXRlc3RfcmVwbHkgfHwgbS50cyk7IH0gaWYobS50aHJlYWRfdHMpIGtub3duVGhyZWFkcy5hZGQobS50aHJlYWRfdHMpOyB9CiAgICBjb25zb2xlLmxvZygic2VlZGVkIHRocmVhZHM6IiwgWy4uLmtub3duVGhyZWFkc10ubGVuZ3RoKTsKICB9Y2F0Y2goZSl7IGNvbnNvbGUud2FybigidGhyZWFkIHNlZWQgZmFpbGVkIiwgZS5tZXNzYWdlKTsgfQogIGNvbnNvbGUubG9nKGBMTE06ICR7TExNX0FQSV9LRVkgPyBgJHtMTE1fTU9ERUx9IHZpYSAke0xMTV9CQVNFX1VSTH1gIDogIm5vbmUsIHVzaW5nIGNhbm5lZCByZXBsaWVzIn1gKTsKICBhd2FpdCBwb2xsKCk7CiAgc2V0SW50ZXJ2YWwocG9sbCwgMzAwMCk7CiAgaWYoUkFORE9NX1BFUl9EQVk+MCl7CiAgICBzZXRJbnRlcnZhbChhc3luYygpPT57CiAgICAgIGNvbnN0IGRyb3AgPSBSQU5ET01fRFJPUFNbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpKlJBTkRPTV9EUk9QUy5sZW5ndGgpXTsKICAgICAgYXdhaXQgcG9zdE1lc3NhZ2UoSE9NRV9DSEFOTkVMLCBkcm9wKTsKICAgIH0sICgyNCo2MCo2MCoxMDAwKS9SQU5ET01fUEVSX0RBWSk7CiAgfQp9KSgpOwo=
+// The Gremlin - polling mode for Muse VM, where Slack Socket Mode websockets
+// fail through the egress proxy. Uses plain HTTPS fetch, which works here.
+// Same logic as src/index.js, just a different transport.
+// Run: npm run start:poll
+require("dotenv").config();
+const {
+  HOME_CHANNEL_ID, HELP_TEXT, RANDOM_DROPS, pickFallbackReply, loadSystemPrompt,
+  parseGremlinCommand, shouldReply, parseLlmOutput, buildLlmMessages,
+  pickWelcome, isSpammy, pickGuardReply, ADMIN_USER_ID,
+} = require("./gremlin");
+const { askBrain, askGroq } = require("./brain");
+
+const HOME_CHANNEL = process.env.GREMLIN_CHANNEL_ID || HOME_CHANNEL_ID;
+const BOT_TOKEN = process.env.SLACK_BOT_TOKEN || "";
+const BOT_USER_ID = process.env.GREMLIN_BOT_USER_ID || "U0CM5DUJK7W";
+const REPLY_TO_ALL = process.env.GREMLIN_REPLY_TO_ALL !== "false";
+const RANDOM_PER_DAY = Number(process.env.GREMLIN_RANDOM_PER_DAY || 3);
+const THREAD_MEMORY = Number(process.env.GREMLIN_THREAD_MEMORY || 20);
+const LLM_API_KEY = process.env.LLM_API_KEY || "";
+const LLM_BASE_URL = (process.env.LLM_BASE_URL || "https://openrouter.ai/api/v1").replace(/\/$/, "");
+const LLM_MODEL = process.env.LLM_MODEL || "google/gemma-4-26b-a4b-it:free";
+const LLM_FALLBACK_MODELS = (process.env.LLM_FALLBACK_MODELS || "").split(",").map(s=>s.trim()).filter(Boolean);
+const GROQ_API_KEY = process.env.GROQ_API_KEY || "";
+const GROQ_MODELS = (process.env.GROQ_MODELS || "qwen/qwen3.8-27b,openai/gpt-oss-20b,openai/gpt-oss-120b").split(",").map(s=>s.trim()).filter(Boolean);
+
+let systemPrompt = "";
+try { systemPrompt = loadSystemPrompt(); } catch { systemPrompt = "You are The Gremlin, a chaotic funny gremlin in Sami's Slack channel. Keep replies to 1-2 lines. Reply in this exact format:\nreply: <text>\nreaction: <emoji or blank>"; }
+
+const threadHistory = new Map();
+const joinedThreads = new Set();
+const leftThreads = new Map();
+const seen = new Set();
+function threadKey(c, t){ return `${c}:${t}`; }
+function isLeft(c, t){ const e = leftThreads.get(threadKey(c,t)); if(!e) return false; if(Date.now()>e){ leftThreads.delete(threadKey(c,t)); return false; } return true; }
+function getHistory(c,t){ return threadHistory.get(threadKey(c,t)) || []; }
+function pushHistory(c,t,r,txt){ const k=threadKey(c,t); const l=getHistory(c,t); l.push({role:r,text:txt}); threadHistory.set(k,l.slice(-THREAD_MEMORY)); }
+
+async function slack(method, body){
+  const res = await fetch(`https://slack.com/api/${method}`, {method:"POST", headers:{Authorization:`Bearer ${BOT_TOKEN}`,"Content-Type":"application/json"}, body: JSON.stringify(body||{}), signal: AbortSignal.timeout(10000)});
+  return res.json();
+}
+async function postMessage(channel, text, thread_ts){
+  if(thread_ts) knownThreads.add(thread_ts);
+  console.log("posting", text.slice(0,80));
+  const r = await slack("chat.postMessage", {channel, text, thread_ts});
+  console.log("post ok:", r.ok, r.error||"");
+  if(!r.ok) console.warn("postMessage failed", r.error);
+  return r;
+}
+const DUBBY_LOGO = "https://cdn.shopify.com/s/files/1/0552/7253/8296/files/dubby_png_logo.png?v=1615500378&width=640";
+async function postPromo(channel){
+  const r = await slack("chat.postMessage", {channel, text: "<!channel> dubby promo! use code SAMI9889 at dubby.gg for 10% off. get it here: https://www.dubby.gg/discount/SAMI9889?ref=doihgpyc", blocks: [{type: "section", text: {type: "mrkdwn", text: "<!channel> dubby promo! use code *SAMI9889* at dubby.gg for *10% off*. sami is a dubby partner, and he is working on a custom peach slushy flavour that tastes like Peach Fanta. get it here: <https://www.dubby.gg/discount/SAMI9889?ref=doihgpyc|dubby.gg/discount/SAMI9889>"}}, {type: "image", image_url: DUBBY_LOGO, alt_text: "Dubby Energy logo"}]});
+  console.log("promo post ok:", r.ok, r.error||"");
+  return r;
+}
+async function getDisplayName(userId){
+  try { const r = await slack("users.info", {user:userId}); return r.user?.profile?.display_name || r.user?.profile?.real_name || r.user?.name || ""; } catch { return ""; }
+}
+async function askLlm(history, userText, username){
+  if(!LLM_API_KEY) return null;
+  const messages = buildLlmMessages(systemPrompt, history, userText, username);
+  const groq = await askGroq({ apiKey: GROQ_API_KEY, models: GROQ_MODELS, messages, userText, systemPrompt }).catch(()=>null);
+  if (groq) return groq;
+  return askBrain({ baseUrl: LLM_BASE_URL, apiKey: LLM_API_KEY, models: [LLM_MODEL, ...LLM_FALLBACK_MODELS], messages, userText, systemPrompt });
+}
+
+async function handle(event){
+  console.log("handle", event.ts, JSON.stringify(event.text||"").slice(0,120));
+  if(!event || event.channel !== HOME_CHANNEL) return;
+  if(event.bot_id) return;
+  if(event.subtype === "channel_join"){
+    if(event.user === "U08G06U8PS8") return; // @at-channel is not a real person, do not welcome it
+    await postMessage(event.channel, pickWelcome(event.user));
+    return;
+  }
+  if(event.subtype && event.subtype !== "thread_broadcast") return;
+  const key = `${event.channel}:${event.ts}`;
+  if(seen.has(key)) return; seen.add(key); if(seen.size>1000) seen.clear();
+  const text = event.text || "";
+  if(event.thread_ts) knownThreads.add(event.thread_ts);
+  if(event.ts) knownThreads.add(event.ts);
+  const threadTs = event.thread_ts || event.ts; // always reply in a thread to the message, never as a top-level channel message
+  const command = parseGremlinCommand(text, BOT_USER_ID);
+  console.log("command:", JSON.stringify(command));
+  if (command && (command.type==="say" || command.type==="leave" || command.type==="stop") && event.user !== ADMIN_USER_ID) {
+    await postMessage(event.channel, "nope. only @sami9889 can run that one. gremlin admin only", threadTs);
+    return;
+  }
+  if(command){
+    if(command.type==="help"){ await postMessage(event.channel, HELP_TEXT, threadTs); return; }
+    if(command.type==="leave"||command.type==="stop"){ leftThreads.set(threadKey(event.channel,threadTs), Date.now()+7*24*60*60*1000); joinedThreads.delete(threadKey(event.channel,threadTs)); await postMessage(event.channel, "aight im out. gremlin gone", threadTs); return; }
+    if(command.type==="fun"&&command.text&&command.text.startsWith("dubby promo!")){ await postPromo(event.channel); return; }
+    if((command.type==="say"||command.type==="fun")&&command.text){ await postMessage(event.channel, command.text, command.channel ? undefined : threadTs); return; }
+    if(command.type==="unknown"){ await postMessage(event.channel, "that is not a gremlin command. try !gremlin help", threadTs); return; }
+  }
+  if(isSpammy(text)){ await postMessage(event.channel, pickGuardReply(), threadTs); return; }
+  if(isLeft(event.channel, threadTs)) return;
+  if(!shouldReply(event, {homeChannelId:HOME_CHANNEL, botUserId:BOT_USER_ID, replyToAll:REPLY_TO_ALL, leftThreads:new Set([...leftThreads.keys()]), joinedThreads})) return;
+  const username = await getDisplayName(event.user);
+  const history = getHistory(event.channel, threadTs);
+  pushHistory(event.channel, threadTs, "user", text);
+  let reply="", reaction="";
+  const llm = await askLlm(history, text, username).catch(()=>null);
+  if(llm && llm.reply){ reply=llm.reply; reaction=llm.reaction; } else { reply=pickFallbackReply(text, username); }
+  if(reaction){ try{ await slack("reactions.add", {channel:event.channel, timestamp:event.ts, name:reaction}); }catch{} }
+  if(reply){ await postMessage(event.channel, reply, threadTs); pushHistory(event.channel, threadTs, "gremlin", reply); joinedThreads.add(threadKey(event.channel, threadTs)); }
+}
+
+let lastTs = ((Date.now()/1000) - 120).toString();
+const STARTED_AT = Date.now()/1000;
+const knownThreads = new Set(); // thread parent ts values to poll for replies
+const threadLastTs = new Map();
+async function poll(){
+  try{
+    const r = await slack("conversations.history", {channel:HOME_CHANNEL, oldest:lastTs, limit:20});
+    if(!r.ok){ console.warn("history failed", r.error); return; }
+    console.log("poll ok, messages:", (r.messages||[]).length);
+    const msgs = (r.messages||[]).slice().reverse();
+    for(const m of msgs){
+      if(parseFloat(m.ts) > parseFloat(lastTs)) lastTs = m.ts;
+      if(m.reply_count) knownThreads.add(m.ts);
+      if(m.thread_ts) knownThreads.add(m.thread_ts);
+      m.channel = HOME_CHANNEL; await handle(m);
+    }
+    // Poll every thread we know about, so a message in a thread gets
+    // an auto reply without anyone having to say gremlin again.
+    for(const parentTs of [...knownThreads]){
+      try{
+        const trRes = await fetch(`https://slack.com/api/conversations.replies?channel=${HOME_CHANNEL}&ts=${parentTs}`, {headers:{Authorization:`Bearer ${BOT_TOKEN}`}, signal: AbortSignal.timeout(10000)});
+        const tr = await trRes.json();
+        if(!tr.ok) continue;
+        const replies = (tr.messages||[]).slice().sort((a,b)=>parseFloat(a.ts)-parseFloat(b.ts));
+        for(const m of replies){
+          if(m.ts === parentTs) continue;
+          const last = threadLastTs.get(parentTs) || "0";
+          if(parseFloat(m.ts) <= parseFloat(last)) continue;
+          if(parseFloat(m.ts) < STARTED_AT) { threadLastTs.set(parentTs, m.ts); continue; }
+          threadLastTs.set(parentTs, m.ts);
+          m.channel = HOME_CHANNEL; m.thread_ts = parentTs;
+          await handle(m);
+        }
+      }catch(e){ console.warn("thread poll error", e.message); }
+    }
+  }catch(e){ console.warn("poll error", e.message); }
+}
+(async()=>{
+  console.log(`The Gremlin is awake in ${HOME_CHANNEL} (polling mode). Bot user: ${BOT_USER_ID}`);
+  // Seed known threads from recent history, so threads started before
+  // this restart still get auto replies.
+  try{
+    const hr = await slack("conversations.history", {channel:HOME_CHANNEL, limit:20});
+    for(const m of (hr.messages||[])){ if(m.reply_count) { knownThreads.add(m.ts); threadLastTs.set(m.ts, m.latest_reply || m.ts); } if(m.thread_ts) knownThreads.add(m.thread_ts); }
+    console.log("seeded threads:", [...knownThreads].length);
+  }catch(e){ console.warn("thread seed failed", e.message); }
+  console.log(`LLM: ${LLM_API_KEY ? `${LLM_MODEL} via ${LLM_BASE_URL}` : "none, using canned replies"}`);
+  await poll();
+  setInterval(poll, 3000);
+  if(RANDOM_PER_DAY>0){
+    setInterval(async()=>{
+      const drop = RANDOM_DROPS[Math.floor(Math.random()*RANDOM_DROPS.length)];
+      await postMessage(HOME_CHANNEL, drop);
+    }, (24*60*60*1000)/RANDOM_PER_DAY);
+  }
+})();
