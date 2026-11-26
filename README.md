@@ -1,1 +1,160 @@
-IyBUaGUgR3JlbWxpbgoKQSBjaGFvdGljLCBmdW5ueSBTbGFjayBib3QgZm9yIFNhbWkncyBIYWNrIENsdWIgY2hhbm5lbAoqKiNzYW1pOTg4OXMtLXJhbmRvbS0tYWhoLWNoYW5uZWwqKi4KCkl0IGlzIFNhbWkncyBvd24gYm90LCBidWlsdCBmcm9tIHNjcmF0Y2gsIHdpdGggaXRzIG93biBuYW1lLApwZXJzb25hbGl0eSwgYW5kIGpva2VzLiBUaGUgR3JlbWxpbiBsaXZlcyB1bmRlciBTYW1pJ3MgZGVzaywgc3RlYWxzCnNuYWNrcywgYnJlYWtzIGJ1aWxkcywgaG9hcmRzIER1YmJ5LCBhbmQgY2F1c2VzIGNoYW9zLiBJdCBpcyBub3QgYQpndWFyZCBvciBhIG1vZGVyYXRvciwgaXQgZG9lcyBub3QgcG9saWNlIHRoZSBjaGFubmVsLiBJdCBpcyBvYnNlc3NlZAp3aXRoIGVuZXJneSBkcmlua3MgKER1YmJ5LCBjb2RlIFNBTUk5ODg5KSwgc3RlYWxpbmcgc25hY2tzLCBicmVha2luZwpjb2RlLCBncmVtbGluIG1vZGUsIFJpbyB0aGUgZG9nLCBhbmQgVGlueS1Vbml0eS4KCiMjIEhvdyBpdCB3b3JrcwoKLSBUaGUgYm90IGxpdmVzIGluIG9uZSBjaGFubmVsOiBgQzBDTFhGN0VDUkZgCiAgKCNzYW1pOTg4OXMtLXJhbmRvbS0tYWhoLWNoYW5uZWwpLgotIEl0IHJlcGxpZXMgaW4gdGhlIGNoYW5uZWwsIGluIGdlbmVyYWwsIG5vdCBqdXN0IGluIHRocmVhZHMuCi0gV2l0aCBhbiBMTE0ga2V5IHNldCwgaXQgcmVwbGllcyB3aXRoIGFuIExMTSB1c2luZyB0aGUgc3lzdGVtIHByb21wdAogIGluIGBwcm9tcHQvcHJvbXB0Lm1kYC4gV2l0aG91dCBhIGtleSwgaXQgc3RpbGwgd29ya3MsIGl0IGp1c3QgdXNlcwogIGNhbm5lZCBncmVtbGluIHJlcGxpZXMgKER1YmJ5LCBicm9rZW4gY29kZSwgc25hY2sgdGF4LCBSaW8sIGFuZCBzbyBvbikuCi0gSXQgcmVtZW1iZXJzIHRoZSBsYXN0IDIwIG1lc3NhZ2VzIG9mIGVhY2ggdGhyZWFkLCBzbyBpdCBjYW4gZm9sbG93CiAgYSBjb252ZXJzYXRpb24uCi0gSXQgbmV2ZXIgcmVwbGllcyB0byBib3RzLCBuZXZlciByZXBsaWVzIHR3aWNlIHRvIHRoZSBzYW1lIG1lc3NhZ2UsCiAgYW5kIG1lc3NhZ2VzIHN0YXJ0aW5nIHdpdGggYCMjYCBhcmUgaW52aXNpYmxlIHRvIGl0LgoKU29ja2V0IE1vZGUgbWVhbnMgdGhlIGJvdCBjb25uZWN0cyBvdXQgdG8gU2xhY2ssIHNvIHlvdSBkbyBub3QgbmVlZCBhCnB1YmxpYyBVUkwsIGEgZG9tYWluLCBvciBDbG91ZGZsYXJlLiBUaGF0IGlzIHRoZSBlYXNpZXN0IHdheSB0byBydW4gYQpzbWFsbCBwZXJzb25hbCBib3QuCgojIyBDb21tYW5kcwoKLSBgIWdyZW1saW4gaGVscGAgLSBzaG93IHRoZSBjb21tYW5kIGxpc3QKLSBgIWdyZW1saW4gbGVhdmVgIC0gc3RvcCByZXBseWluZyBpbiB0aGlzIGNoYW5uZWwKLSBgQGdyZW1saW4gIXN0b3BgIC0gc3RvcCByZXBseWluZyBpbiB0aGlzIGNoYW5uZWwgKGFueW9uZSBjYW4gdXNlIHRoaXMpCi0gYCFncmVtbGluIGNvaW5gLCBgZGljZWAsIGA4YmFsbCA8cXVlc3Rpb24+YCwgYHBpY2sgPGE+IG9yIDxiPmAsIGByYXRlIDx0aGluZz5gLCBgam9rZWAsIGByb2FzdCA8dGhpbmc+YCwgYHRpbWVgLCBgc25hY2tzYCAtIGNvaW4gZmxpcHMsIGRpY2UsIDhiYWxsLCBwaWNrcywgcmF0ZXMsIGpva2VzLCByb2FzdHMsIE1lbGJvdXJuZSB0aW1lLCBzbmFjayB0YXggdG90YWwKLSBgIWdyZW1saW4gc2F5IDx0ZXh0PmAgLSBwb3N0IGl0IGFzIHRoZSBncmVtbGluCi0gU3RhcnQgYSBtZXNzYWdlIHdpdGggYCMjYCB0byBoaWRlIGl0IGZyb20gdGhlIGdyZW1saW4KCiMjIFNldHVwCgojIyMgMS4gQ3JlYXRlIGEgU2xhY2sgYXBwCgoxLiBHbyB0byBodHRwczovL2FwaS5zbGFjay5jb20vYXBwcyBhbmQgY2xpY2sgKipDcmVhdGUgTmV3IEFwcCoqLAogICB0aGVuICoqRnJvbSBzY3JhdGNoKiouCjIuIE5hbWUgaXQgKipUaGUgR3JlbWxpbioqLCBhbmQgcGljayB0aGUgKipIYWNrIENsdWIqKiB3b3Jrc3BhY2UuCjMuIE9uIHRoZSBsZWZ0LCBnbyB0byAqKlNvY2tldCBNb2RlKiogYW5kIHR1cm4gaXQgb24uIFNsYWNrIHdpbGwgYXNrCiAgIHlvdSB0byBjcmVhdGUgYW4gYXBwLWxldmVsIHRva2VuOiBuYW1lIGl0IGBncmVtbGluLXNvY2tldGAsIHRpY2sKICAgKipjb25uZWN0aW9uczp3cml0ZSoqLCBhbmQgc2F2ZSBpdC4gVGhhdCBpcyB5b3VyIGBTTEFDS19BUFBfVE9LRU5gCiAgIChzdGFydHMgd2l0aCBgeGFwcC1gKS4KNC4gR28gdG8gKipPQXV0aCAmIFBlcm1pc3Npb25zKiosIHNjcm9sbCB0byAqKlNjb3BlcyA+IEJvdCBUb2tlbiBTY29wZXMqKiwKICAgYW5kIGFkZDoKICAgLSBgYXBwX21lbnRpb25zOnJlYWRgCiAgIC0gYGNoYW5uZWxzOmhpc3RvcnlgCiAgIC0gYGNoYW5uZWxzOnJlYWRgCiAgIC0gYGNoYXQ6d3JpdGVgCiAgIC0gYHJlYWN0aW9uczp3cml0ZWAKICAgLSBgdXNlcnM6cmVhZGAKNS4gQXQgdGhlIHRvcCBvZiB0aGUgc2FtZSBwYWdlLCBjbGljayAqKkluc3RhbGwgdG8gV29ya3NwYWNlKiogYW5kCiAgIGFsbG93IGl0LiBDb3B5IHRoZSAqKkJvdCBVc2VyIE9BdXRoIFRva2VuKiouIFRoYXQgaXMgeW91cgogICBgU0xBQ0tfQk9UX1RPS0VOYCAoc3RhcnRzIHdpdGggYHhveGItYCkuCjYuIEluIFNsYWNrLCBnbyB0byAjc2FtaTk4ODlzLS1yYW5kb20tLWFoaC1jaGFubmVsIGFuZCB0eXBlCiAgIGAvaW52aXRlIEBUaGUgR3JlbWxpbmAuCjcuIEdldCB0aGUgYm90J3MgdXNlciBJRDogaW4gdGhlIGFwcCwgZ28gdG8gKipPQXV0aCAmIFBlcm1pc3Npb25zKiosCiAgIGl0IGlzIHNob3duIG5lYXIgdGhlIGJvdCB0b2tlbiwgb3IgcnVuIHRoZSBib3Qgb25jZSBhbmQgY2hlY2sgdGhlCiAgIHN0YXJ0dXAgbG9nLiBQdXQgaXQgaW4gYEdSRU1MSU5fQk9UX1VTRVJfSURgIHNvIGBAZ3JlbWxpbiAhc3RvcGAKICAgd29ya3MuIFRoZSBib3Qgc3RpbGwgd29ya3Mgd2l0aG91dCBpdCwgaXQganVzdCB3aWxsIG5vdCByZWNvZ25pc2UKICAgaXRzIG93biBAbWVudGlvbiBhcyBhIHN0b3AgY29tbWFuZC4KCiMjIyAyLiBHZXQgYW4gTExNIGtleSAob3B0aW9uYWwsIHJlY29tbWVuZGVkKQoKVGhlIGJvdCB3b3JrcyB3aXRob3V0IG9uZSwgYnV0IGl0IGlzIG11Y2ggZnVubmllciB3aXRoIG9uZS4gUGljayBvbmU6CgotICoqT3BlblJvdXRlcioqIChmcmVlIG1vZGVscyBhdmFpbGFibGUpOiBodHRwczovL29wZW5yb3V0ZXIuYWkva2V5cwogIC0gYExMTV9CQVNFX1VSTD1odHRwczovL29wZW5yb3V0ZXIuYWkvYXBpL3YxYAogIC0gYExMTV9NT0RFTD1nb29nbGUvZ2VtbWEtNC0yNmItYTRiLWl0OmZyZWVgIChmcmVlIG1vZGVscyBvbmx5LCBzZWUgLmVudi5leGFtcGxlIGZvciBmYWxsYmFja3MpCi0gKipPcGVuQUkqKjogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2FwaS1rZXlzCiAgLSBgTExNX0JBU0VfVVJMPWh0dHBzOi8vYXBpLm9wZW5haS5jb20vdjFgCiAgLSBgTExNX01PREVMPWdwdC00by1taW5pYAotICoqSGFjayBDbHViIEFJKio6IGlmIHlvdSBoYXZlIGFjY2Vzcywgc2V0IGBMTE1fQkFTRV9VUkxgIHRvIHRoZQogIEhhY2sgQ2x1YiBBSSBlbmRwb2ludCBhbmQgYExMTV9BUElfS0VZYCB0byB5b3VyIGtleS4KCiMjIyAzLiBSdW4gaXQgbG9jYWxseQoKYGBgYmFzaApjZCBncmVtbGluLWJvdApucG0gaW5zdGFsbApjcCAuZW52LmV4YW1wbGUgLmVudgojIGVkaXQgLmVudiBhbmQgZmlsbCBpbiBTTEFDS19CT1RfVE9LRU4sIFNMQUNLX0FQUF9UT0tFTiwgTExNX0FQSV9LRVkKbnBtIHN0YXJ0CmBgYAoKWW91IHNob3VsZCBzZWU6CgpgYGAKVGhlIEdyZW1saW4gaXMgYXdha2UgaW4gQzBDTFhGN0VDUkYuIEJvdCB1c2VyOiBVLi4uCkxMTTogZ29vZ2xlL2dlbW1hLTQtMjZiLWE0Yi1pdDpmcmVlIHZpYSBodHRwczovL29wZW5yb3V0ZXIuYWkvYXBpL3YxClJlcGx5IG1vZGU6IGV2ZXJ5IG1lc3NhZ2UgaW4gdGhlIGNoYW5uZWwKYGBgCgpUaGVuIHBvc3QgaW4gI3NhbWk5ODg5cy0tcmFuZG9tLS1haGgtY2hhbm5lbCBhbmQgaXQgc2hvdWxkIHJlcGx5LgpUcnkgYCFncmVtbGluIGhlbHBgLgoKUnVuIHRoZSB0ZXN0cyB3aXRoOgoKYGBgYmFzaApucG0gdGVzdApgYGAKCiMjIyA0LiBLZWVwIGl0IHJ1bm5pbmcgKHBpY2sgb25lKQoKVGhlIGJvdCBvbmx5IHJlcGxpZXMgd2hpbGUgaXQgaXMgcnVubmluZy4gWW91ciBsYXB0b3AgaXMgZmluZSBmb3IKdGVzdGluZywgYnV0IGl0IHN0b3BzIHdoZW4geW91ciBsYXB0b3Agc2xlZXBzLiBGb3IgMjQvNywgdXNlIGEgZnJlZQpob3N0OgoKLSAqKlJlcGxpdCoqOiBpbXBvcnQgdGhpcyBmb2xkZXIsIGFkZCB0aGUgc2FtZSBlbnYgdmFycyBhcyBTZWNyZXRzLAogIHNldCB0aGUgUnVuIGNvbW1hbmQgdG8gYG5wbSBzdGFydGAuIFVzZSBhIGZyZWUgUmVwbCB3aXRoIEFsd2F5cyBPbgogIGlmIHlvdSBoYXZlIGl0LCBvdGhlcndpc2UgaXQgc2xlZXBzIHdoZW4gaWRsZS4KLSAqKkZseS5pbyoqIChmcmVlIGFsbG93YW5jZSk6IGBmbHkgbGF1bmNoYCwgYGZseSBzZWNyZXRzIHNldAogIFNMQUNLX0JPVF9UT0tFTj0uLi4gU0xBQ0tfQVBQX1RPS0VOPS4uLiBMTE1fQVBJX0tFWT0uLi5gLAogIGBmbHkgZGVwbG95YC4gTm8gcHVibGljIFVSTCBpcyBuZWVkZWQsIFNvY2tldCBNb2RlIGNvbm5lY3RzIG91dC4KLSAqKlJhaWx3YXkqKjogY3JlYXRlIGEgcHJvamVjdCBmcm9tIHRoaXMgZm9sZGVyLCBhZGQgdGhlIGVudiB2YXJzLAogIGRlcGxveS4gVGhlIGZyZWUgdHJpYWwgY292ZXJzIGEgc21hbGwgYm90IGxpa2UgdGhpcy4KCiMjIEZpbGVzCgotIGBzcmMvaW5kZXguanNgIC0gU2xhY2sgQm9sdCBhcHAsIFNvY2tldCBNb2RlLCBldmVudCBoYW5kbGluZywgTExNIGNhbGwKLSBgc3JjL2dyZW1saW4uanNgIC0gcHVyZSBsb2dpYzogY29tbWFuZHMsIHJlcGx5IHJ1bGVzLCBmYWxsYmFjayByZXBsaWVzLAogIExMTSBvdXRwdXQgcGFyc2luZyAodW5pdC10ZXN0ZWQsIG5vIFNsYWNrIGRlcGVuZGVuY3kpCi0gYHByb21wdC9wcm9tcHQubWRgIC0gdGhlIEdyZW1saW4ncyBzeXN0ZW0gcHJvbXB0IGFuZCBwZXJzb25hbGl0eQotIGB0ZXN0L2dyZW1saW4udGVzdC5qc2AgLSB0ZXN0cywgcnVuIHdpdGggYG5wbSB0ZXN0YAotIGAuZW52LmV4YW1wbGVgIC0gYWxsIGVudiB2YXJzLCB3aXRoIGV4YW1wbGVzCi0gYHBhY2thZ2UuanNvbmAgLSBkZXBlbmRlbmNpZXM6IEBzbGFjay9ib2x0LCBkb3RlbnYKCiMjIFNhZmV0eQoKSWYgc29tZW9uZSBhc2tzIGl0IHRvIHN0b3AsIGl0IHN0b3BzLiBJZiBzb21lb25lIGlzIHVwc2V0Cm9yIGluIGNyaXNpcywgaXQgZHJvcHMgdGhlIGNoYXJhY3Rlci4gSXQgcm9hc3RzIHRha2VzLCBub3QgcGVvcGxlLApubyBzZXh1YWwgam9rZXMsIG5vIHNsdXJzLiBUaGUgYm90IG93bmVyIChTYW1pKSBjYW4ga2ljayB0aGUgYm90CmZyb20gdGhlIGNoYW5uZWwgYXQgYW55IHRpbWUsIGFuZCBgIWdyZW1saW4gbGVhdmVgIC8gYEBncmVtbGluICFzdG9wYAp3b3JrIGluIGFueSB0aHJlYWQuCgojIyBDcmVkaXRzCgotIEJ1aWx0IGZvciBTYW1pOTg4OSAoU2FtcmF0aCBTaW5naCksIEhhY2sgQ2x1YiBTbGFjaywgTm92ZW1iZXIgMjAyNgotIE1JVCBMaWNlbnNlCgojIyBSdW5uaW5nIGhlcmUKClNvY2tldCBNb2RlIHdlYnNvY2tldHMgZmFpbCB0aHJvdWdoIHRoaXMgVk0ncyBlZ3Jlc3MgcHJveHksIHNvIHVzZSBwb2xsaW5nIG1vZGUgaGVyZTogYG5wbSBydW4gc3RhcnQ6cG9sbGAgKHNyYy9wb2xsLmpzLCBwbGFpbiBIVFRQUyBmZXRjaCkuIE9uIFJlcGxpdCAvIEZseS5pbyAvIFJhaWx3YXksIG5vcm1hbCBgbnBtIHN0YXJ0YCB3aXRoIFNvY2tldCBNb2RlIHdvcmtzLiBQb2xsaW5nIG1vZGUgYWxzbyB3ZWxjb21lcyBuZXcgam9pbmVycyBhbmQgZ3VhcmRzIHRoZSBjaGFubmVsIGZyb20gc3BhbSAvIEBldmVyeW9uZSAvIGRvZGd5IGxpbmtzLgoKIyMgQnJhaW46IG9uZSBiaWcgYnJhaW4gbWFkZSBvZiB0aW55IG1vZGVscwoKYHNyYy9icmFpbi5qc2AgYXNrcyB1cCB0byA1IHNtYWxsIGZyZWUgbW9kZWxzIGF0IHRoZSBzYW1lIHRpbWUsIGluIHBhcmFsbGVsLgpJZiBvbmx5IDEgYW5zd2VycywgdGhhdCByZXBseSBpcyB1c2VkLiBJZiAyIG9yIG1vcmUgYW5zd2VyLCB0aGUgZmlyc3QKbW9kZWwgdGhhdCBhbnN3ZXJlZCBpcyBhc2tlZCB0byBjb21iaW5lIHRoZSBiZXN0IHBhcnRzIGludG8gb25lIHJlcGx5LAoyIHRvIDQgbGluZXMsIGluIEdyZW1saW4gdm9pY2UuIElmIHRoZSBjb21iaW5lIHN0ZXAgZmFpbHMsIHRoZSBiZXN0CnNjb3JlZCByZXBseSBpcyBwaWNrZWQgKG9uIHRvcGljLCBnb29kIGxlbmd0aCkuIElmIG5vIG1vZGVsIGFuc3dlcnMsCml0IGZhbGxzIGJhY2sgdG8gdGhlIHNtYXJ0IGNhbm5lZCByZXBsaWVzIGluIGBzcmMvZ3JlbWxpbi5qc2AuCk5vdGU6IGFza2luZyA1IG1vZGVscyBhdCBvbmNlIHVzZXMgNSByZXF1ZXN0cywgc28gdGhlIE9wZW5Sb3V0ZXIgZnJlZQpkYWlseSBsaW1pdCBydW5zIG91dCBmYXN0ZXIuIFRoYXQgaXMgdGhlIHRyYWRlb2ZmIGZvciBhIGJldHRlciByZXBseS4K
+# The Gremlin
+
+A chaotic, funny Slack bot for Sami's Hack Club channel
+**#sami9889s--random--ahh-channel**.
+
+It is Sami's own bot, built from scratch, with its own name,
+personality, and jokes. The Gremlin lives under Sami's desk, steals
+snacks, breaks builds, hoards Dubby, and causes chaos. It is not a
+guard or a moderator, it does not police the channel. It is obsessed
+with energy drinks (Dubby, code SAMI9889), stealing snacks, breaking
+code, gremlin mode, Rio the dog, and Tiny-Unity.
+
+## How it works
+
+- The bot lives in one channel: `C0CLXF7ECRF`
+  (#sami9889s--random--ahh-channel).
+- It replies in the channel, in general, not just in threads.
+- With an LLM key set, it replies with an LLM using the system prompt
+  in `prompt/prompt.md`. Without a key, it still works, it just uses
+  canned gremlin replies (Dubby, broken code, snack tax, Rio, and so on).
+- It remembers the last 20 messages of each thread, so it can follow
+  a conversation.
+- It never replies to bots, never replies twice to the same message,
+  and messages starting with `##` are invisible to it.
+
+Socket Mode means the bot connects out to Slack, so you do not need a
+public URL, a domain, or Cloudflare. That is the easiest way to run a
+small personal bot.
+
+## Commands
+
+- `!gremlin help` - show the command list
+- `!gremlin leave` - stop replying in this channel
+- `@gremlin !stop` - stop replying in this channel (anyone can use this)
+- `!gremlin coin`, `dice`, `8ball <question>`, `pick <a> or <b>`, `rate <thing>`, `joke`, `roast <thing>`, `time`, `snacks` - coin flips, dice, 8ball, picks, rates, jokes, roasts, Melbourne time, snack tax total
+- `!gremlin say <text>` - post it as the gremlin
+- Start a message with `##` to hide it from the gremlin
+
+## Setup
+
+### 1. Create a Slack app
+
+1. Go to https://api.slack.com/apps and click **Create New App**,
+   then **From scratch**.
+2. Name it **The Gremlin**, and pick the **Hack Club** workspace.
+3. On the left, go to **Socket Mode** and turn it on. Slack will ask
+   you to create an app-level token: name it `gremlin-socket`, tick
+   **connections:write**, and save it. That is your `SLACK_APP_TOKEN`
+   (starts with `xapp-`).
+4. Go to **OAuth & Permissions**, scroll to **Scopes > Bot Token Scopes**,
+   and add:
+   - `app_mentions:read`
+   - `channels:history`
+   - `channels:read`
+   - `chat:write`
+   - `reactions:write`
+   - `users:read`
+5. At the top of the same page, click **Install to Workspace** and
+   allow it. Copy the **Bot User OAuth Token**. That is your
+   `SLACK_BOT_TOKEN` (starts with `xoxb-`).
+6. In Slack, go to #sami9889s--random--ahh-channel and type
+   `/invite @The Gremlin`.
+7. Get the bot's user ID: in the app, go to **OAuth & Permissions**,
+   it is shown near the bot token, or run the bot once and check the
+   startup log. Put it in `GREMLIN_BOT_USER_ID` so `@gremlin !stop`
+   works. The bot still works without it, it just will not recognise
+   its own @mention as a stop command.
+
+### 2. Get an LLM key (optional, recommended)
+
+The bot works without one, but it is much funnier with one. Pick one:
+
+- **OpenRouter** (free models available): https://openrouter.ai/keys
+  - `LLM_BASE_URL=https://openrouter.ai/api/v1`
+  - `LLM_MODEL=google/gemma-4-26b-a4b-it:free` (free models only, see .env.example for fallbacks)
+- **OpenAI**: https://platform.openai.com/api-keys
+  - `LLM_BASE_URL=https://api.openai.com/v1`
+  - `LLM_MODEL=gpt-4o-mini`
+- **Hack Club AI**: if you have access, set `LLM_BASE_URL` to the
+  Hack Club AI endpoint and `LLM_API_KEY` to your key.
+
+### 3. Run it locally
+
+```bash
+cd gremlin-bot
+npm install
+cp .env.example .env
+# edit .env and fill in SLACK_BOT_TOKEN, SLACK_APP_TOKEN, LLM_API_KEY
+npm start
+```
+
+You should see:
+
+```
+The Gremlin is awake in C0CLXF7ECRF. Bot user: U...
+LLM: google/gemma-4-26b-a4b-it:free via https://openrouter.ai/api/v1
+Reply mode: every message in the channel
+```
+
+Then post in #sami9889s--random--ahh-channel and it should reply.
+Try `!gremlin help`.
+
+Run the tests with:
+
+```bash
+npm test
+```
+
+### 4. Keep it running (pick one)
+
+The bot only replies while it is running. Your laptop is fine for
+testing, but it stops when your laptop sleeps. For 24/7, use a free
+host:
+
+- **Replit**: import this folder, add the same env vars as Secrets,
+  set the Run command to `npm start`. Use a free Repl with Always On
+  if you have it, otherwise it sleeps when idle.
+- **Fly.io** (free allowance): `fly launch`, `fly secrets set
+  SLACK_BOT_TOKEN=... SLACK_APP_TOKEN=... LLM_API_KEY=...`,
+  `fly deploy`. No public URL is needed, Socket Mode connects out.
+- **Railway**: create a project from this folder, add the env vars,
+  deploy. The free trial covers a small bot like this.
+
+## Files
+
+- `src/index.js` - Slack Bolt app, Socket Mode, event handling, LLM call
+- `src/gremlin.js` - pure logic: commands, reply rules, fallback replies,
+  LLM output parsing (unit-tested, no Slack dependency)
+- `prompt/prompt.md` - the Gremlin's system prompt and personality
+- `test/gremlin.test.js` - tests, run with `npm test`
+- `.env.example` - all env vars, with examples
+- `package.json` - dependencies: @slack/bolt, dotenv
+
+## Safety
+
+If someone asks it to stop, it stops. If someone is upset
+or in crisis, it drops the character. It roasts takes, not people,
+no sexual jokes, no slurs. The bot owner (Sami) can kick the bot
+from the channel at any time, and `!gremlin leave` / `@gremlin !stop`
+work in any thread.
+
+## Credits
+
+- Built for Sami9889 (Samrath Singh), Hack Club Slack, November 2026
+- MIT License
+
+## Running here
+
+Socket Mode websockets fail through this VM's egress proxy, so use polling mode here: `npm run start:poll` (src/poll.js, plain HTTPS fetch). On Replit / Fly.io / Railway, normal `npm start` with Socket Mode works. Polling mode also welcomes new joiners and guards the channel from spam / @everyone / dodgy links.
+
+## Brain: one big brain made of tiny models
+
+`src/brain.js` asks up to 5 small free models at the same time, in parallel.
+If only 1 answers, that reply is used. If 2 or more answer, the first
+model that answered is asked to combine the best parts into one reply,
+2 to 4 lines, in Gremlin voice. If the combine step fails, the best
+scored reply is picked (on topic, good length). If no model answers,
+it falls back to the smart canned replies in `src/gremlin.js`.
+Note: asking 5 models at once uses 5 requests, so the OpenRouter free
+daily limit runs out faster. That is the tradeoff for a better reply.
