@@ -1,1 +1,22 @@
-ewogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQHNsYWNrL2JvbHQiOiAiXjMuMTcuMSIsCiAgICAiZG90ZW52IjogIl4xNi40LjUiCiAgfSwKICAiZGVzY3JpcHRpb24iOiAiVGhlIEdyZW1saW46IGEgY2hhb3RpYywgZnVubnkgU2xhY2sgYm90IGZvciBTYW1pJ3MgSGFjayBDbHViIGNoYW5uZWwgI3NhbWk5ODg5cy0tcmFuZG9tLS1haGgtY2hhbm5lbC4gSW5zcGlyZWQgYnkgc2ViYXNodGlvb24ncyB0aGUtd2FyZGVuLCBidWlsdCBmcm9tIHNjcmF0Y2ggZm9yIFNhbWkuIiwKICAiZW5naW5lcyI6IHsKICAgICJub2RlIjogIj49MTgiCiAgfSwKICAibGljZW5zZSI6ICJNSVQiLAogICJtYWluIjogInNyYy9pbmRleC5qcyIsCiAgIm5hbWUiOiAidGhlLWdyZW1saW4iLAogICJwcml2YXRlIjogdHJ1ZSwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAibm9kZSAtLXdhdGNoIHNyYy9pbmRleC5qcyIsCiAgICAic3RhcnQiOiAibm9kZSBzcmMvaW5kZXguanMiLAogICAgInRlc3QiOiAibm9kZSAtLXRlc3QgdGVzdC9ncmVtbGluLnRlc3QuanMiLAogICAgInN0YXJ0OnBvbGwiOiAibm9kZSBzcmMvcG9sbC5qcyIKICB9LAogICJ0eXBlIjogImNvbW1vbmpzIiwKICAidmVyc2lvbiI6ICIxLjAuMCIKfQo=
+{
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "dotenv": "^16.4.5"
+  },
+  "description": "The Gremlin: a chaotic, funny Slack bot for Sami's Hack Club channel #sami9889s--random--ahh-channel. Inspired by sebashtioon's the-warden, built from scratch for Sami.",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "the-gremlin",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test test/gremlin.test.js",
+    "start:poll": "node src/poll.js"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}
